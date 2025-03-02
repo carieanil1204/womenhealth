@@ -1,0 +1,37 @@
+venv/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+notebooks/.ipynb_checkpoints/
+
+
+/data
+
+# Ignore results and generated scripts
+results/
+scripts/
+
+# Ignore models and serialized ML files
+models/
+*.h5
+*.pkl
+*.joblib
+*.sav
+*.onnx
+
+# Ignore logs, cache, and temporary files
+*.log
+*.tmp
+*.cache
+*.bak
+
+# Ignore dependency and environment files
+.DS_Store
+
+# Ignore VS Code and IDE settings
+.vscode/
+*.swp
+.idea/
